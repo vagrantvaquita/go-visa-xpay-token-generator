@@ -35,7 +35,7 @@ import (
     "net/url"
 
     "github.com/kr/pretty"
-	"vagrantvaquita.github.io/go/xpay"
+    "vagrantvaquita.github.io/go/xpay"
 )
 
 var (
@@ -56,10 +56,8 @@ func main() {
 		PostBody:     "",
 	}
 
-
-	token :=xpay.NewXPayToken(tokenConfig)
-
-	pretty.Println(route)
+	token := xpay.NewXPayToken(tokenConfig)
+	pretty.Println(token)
 }
 ```
 
